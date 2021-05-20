@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DryIoc.Microsoft.DependencyInjection" Version="5.1.0" />
+    <PackageReference Include="MaterialDesignColors" Version="2.0.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.0.0" />
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+    <PackageReference Include="ReactiveUI.WPF" Version="13.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectWeekendPuzzles.Dashboard.Api\ProjectWeekendPuzzles.Dashboard.Api.csproj" />
+    <ProjectReference Include="..\ProjectWeekendPuzzles.Dashboard.Model\ProjectWeekendPuzzles.Dashboard.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ProjectWeekendPuzzles.Core">
+      <HintPath>..\..\..\..\src\app\ProjectWeekendPuzzles\bin\Debug\net5.0-windows\ProjectWeekendPuzzles.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(TargetDir)*.*&quot; &quot;$(SolutionDir)..\..\..\src\app\ProjectWeekendPuzzles\$(OutDir)&quot; /Y /I" />
+  </Target>
+
+</Project>

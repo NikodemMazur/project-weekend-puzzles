@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProjectWeekendPuzzles.Dashboard.Api";
+
+package dashboard;
+
+service StatusUpdater {
+  rpc UpdateStatus (UpdateRequest) returns (UpdateReply);
+}
+
+// The request message containing status information
+message UpdateRequest {
+  int32 pass_count = 1;
+  int32 fail_count = 2;
+  int32 error_count = 3;
+}
+
+// The empty response message
+message UpdateReply {
+  bool success = 1;
+}

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:Double x:Key="IconSize">32.0</system:Double>
+    <system:Double x:Key="BigIconSize">42.0</system:Double>
+    <system:Double x:Key="BarSize">64.0</system:Double>
+    <system:Double x:Key="WideButtonSize">92.0</system:Double>
+</ResourceDictionary>
