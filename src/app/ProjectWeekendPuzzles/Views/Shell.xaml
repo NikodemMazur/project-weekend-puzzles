@@ -24,12 +24,6 @@
 
     <Window.Resources>
         
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/ProjectWeekendPuzzles.Core;component/ResourceDictionaries/Dimensions.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-        
     </Window.Resources>
 
     <Grid x:Name="ShellGrid">
@@ -61,7 +55,14 @@
                         <!--Logo button grid-->
                         <Grid>
 
-                            <Button Style="{DynamicResource MaterialDesignFlatAccentButton}" 
+                            <Grid.Resources>
+                                <!--Redefine color theme to suppress the color adjustment-->
+                                <materialDesign:CustomColorTheme BaseTheme="Dark"
+                                                 PrimaryColor="{StaticResource Primary}"
+                                                 SecondaryColor="{StaticResource Secondary}" />
+                            </Grid.Resources>
+
+                                <Button Style="{DynamicResource MaterialDesignFlatAccentButton}"
                                     Height="{StaticResource BarSize}"
                                     VerticalAlignment="Center">
 
@@ -92,7 +93,7 @@
                                            Text="Project Weekend Puzzles"
                                            TextAlignment="Center"
                                            Padding="0,17,0,17"/>
-                                           <!--That padding is a ugly way to fill grid with text block-->
+                                           <!--That padding is an ugly way to fill grid with text block-->
                                 
                             </Grid>
 
@@ -101,10 +102,13 @@
 
                                 <DockPanel.Resources>
 
-                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatMidBgButton}">
+                                    <Style TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatButton}">
                                         <Style.Setters>
                                             <Setter Property="Height" Value="{StaticResource BarSize}" />
                                             <Setter Property="Width" Value="{StaticResource WideButtonSize}" />
+                                            <Setter Property="Background" Value="Transparent" />
+                                            <Setter Property="BorderBrush" Value="Transparent" />
+                                            <Setter Property="Foreground" Value="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=materialDesign:ColorZone}, Path=Foreground}" />
                                         </Style.Setters>
                                     </Style>
 

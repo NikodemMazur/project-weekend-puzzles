@@ -7,7 +7,7 @@ void Main()
 {
 	using (var statusUpdaterClient = new StatusUpdaterClient())
 	{
-		statusUpdaterClient.UpdateStatus(112, 22, 0);
+		statusUpdaterClient.UpdateStatus(11, 22, 33);
 	}
 }
 

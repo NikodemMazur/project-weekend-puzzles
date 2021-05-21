@@ -8,7 +8,12 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="DeepPurple" SecondaryColor="Yellow" />
+                <ResourceDictionary Source="pack://application:,,,/ProjectWeekendPuzzles.Core;component/ResourceDictionaries/Dimensions.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/ProjectWeekendPuzzles.Core;component/ResourceDictionaries/Colors.xaml" />
+                <materialDesign:CustomColorTheme BaseTheme="Light"
+                                                 PrimaryColor="{StaticResource Primary}"
+                                                 SecondaryColor="{StaticResource Secondary}"
+                                                 ColorAdjustment="{materialDesign:ColorAdjustment}" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
