@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: "14"
       # Install and build website
-      - name: Build Docusaurus website
+      - name: Build docs website
         run: |
           cd ./docs/pwp-docs
           npm install 

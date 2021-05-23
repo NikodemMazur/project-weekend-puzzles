@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 1.0.0
+# Release 1.0.0
 
 That's what has been achieved in the first version:
 
