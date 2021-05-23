@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Project Weekend Puzzles',
   tagline: 'PoC of composable, reactive UI with gRPC-driven API',
-  url: 'TODO',
+  url: 'https://github.com/NikodemMazur/project-weekend-puzzles/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
