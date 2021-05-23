@@ -32,7 +32,7 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          target_branch: docs
+          target_branch: gh-pages
           build_dir: docs/pwp-docs/build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
