@@ -25,6 +25,7 @@ jobs:
       # Install and build website
       - name: Build Docusaurus website
         run: |
+          cd ./docs/pwp-docs
           npm install 
           npm run build
       - name: Deploy to GitHub Pages
