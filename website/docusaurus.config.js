@@ -3,11 +3,11 @@ module.exports = {
   title: 'Project Weekend Puzzles',
   tagline: 'PoC of composable, reactive UI with gRPC-driven API',
   url: 'https://github.com/NikodemMazur/project-weekend-puzzles/',
-  baseUrl: '/',
+  baseUrl: '/project-weekend-puzzles/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/pwp_logo.svg',
-  organizationName: 'NikodemMazur', // Usually your GitHub org/user name.
+  organizationName: 'Nikodem Mazur', // Usually your GitHub org/user name.
   projectName: 'project-weekend-puzzles', // Usually your repo name.
   themeConfig: {
     navbar: {
