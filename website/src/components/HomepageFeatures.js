@@ -28,7 +28,8 @@ const FeatureList = [
     Svg: require('../../static/img/auth_borderless.svg').default,
     description: (
       <>
-        Authorization takes place on two basis
+        Prism's navigation mechanism has been enriched with Role-Based Access Control.
+        Views are activated or deactivated depending on the roles of the logged in user.
       </>
     ),
   },
