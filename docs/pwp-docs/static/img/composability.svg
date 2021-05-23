@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="-5.0 -5.0 79.40964 79.40964"
+   width="43.496708"
+   height="43.496708"
+   version="1.1"
+   id="svg12">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <g
+     class="ldl-scale"
+     id="g10"
+     transform="matrix(0.90142388,0,0,0.90142388,-10.366375,-10.366375)">
+    <path
+       fill="#abbd81"
+       d="m 58.904,70 c 0,4.399 -3.206,8.063 -7.404,8.778 V 88.5 h 27.328 c 5.333,0 9.672,-4.339 9.672,-9.672 V 51.5 H 75.904 V 50 c 0,-3.256 -2.648,-5.905 -5.904,-5.905 -3.256,0 -5.904,2.649 -5.904,5.905 v 1.5 H 51.5 v 9.722 c 4.198,0.715 7.404,4.379 7.404,8.778 z"
+       style="fill:#b41f6c"
+       id="path2" />
+    <path
+       fill="#e15b64"
+       d="m 70,41.095 c 4.398,0 8.063,3.206 8.778,7.405 H 88.5 V 21.172 C 88.5,15.839 84.161,11.5 78.828,11.5 H 51.5 V 24.095 H 50 c -3.256,0 -5.904,2.649 -5.904,5.905 0,3.256 2.648,5.905 5.904,5.905 h 1.5 V 48.5 h 9.722 c 0.716,-4.199 4.38,-7.405 8.778,-7.405 z"
+       style="fill:#b07dff"
+       id="path4" />
+    <path
+       fill="#77a4bd"
+       d="m 41.096,30 c 0,-4.399 3.206,-8.063 7.404,-8.778 V 11.5 H 21.172 c -5.333,0 -9.672,4.339 -9.672,9.672 V 48.5 H 24.096 V 50 c 0,3.256 2.648,5.905 5.904,5.905 3.256,0 5.904,-2.649 5.904,-5.905 V 48.5 H 48.5 V 38.778 C 44.302,38.063 41.096,34.399 41.096,30 Z"
+       style="fill:#fdd835"
+       id="path6" />
+    <path
+       fill="#f8b26a"
+       d="m 30,58.905 c -4.398,0 -8.063,-3.206 -8.778,-7.405 H 11.5 v 27.328 c 0,5.333 4.339,9.672 9.672,9.672 H 48.5 V 75.905 H 50 c 3.256,0 5.904,-2.649 5.904,-5.905 0,-3.256 -2.648,-5.905 -5.904,-5.905 H 48.5 V 51.5 h -9.722 c -0.716,4.199 -4.38,7.405 -8.778,7.405 z"
+       style="fill:#dfa419"
+       id="path8" />
+  </g>
+</svg>
