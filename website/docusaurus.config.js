@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/pwp_logo.svg',
-  organizationName: 'Nikodem Mazur', // Usually your GitHub org/user name.
+  organizationName: 'NikodemMazur', // Usually your GitHub org/user name.
   projectName: 'project-weekend-puzzles', // Usually your repo name.
   themeConfig: {
     navbar: {
