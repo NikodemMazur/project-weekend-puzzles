@@ -3,6 +3,7 @@ using ProjectWeekendPuzzles.Core.ViewContract;
 using ProjectWeekendPuzzles.Dashboard.ViewModels;
 using ReactiveUI;
 using System.Reactive.Disposables;
+using System;
 
 namespace ProjectWeekendPuzzles.Dashboard.Views
 {
@@ -46,7 +47,7 @@ namespace ProjectWeekendPuzzles.Dashboard.Views
             var iconSize = (double)FindResource("IconSize"); // Works only if ResourceDictionary component has been initialized before
                                                              // (i.e. has been referenced in xaml and FindResource method has been called after InitializeComponent)
                                                              // Another interesting approach of referencing resource in code-behind: https://stackoverflow.com/a/24286059
-            _navigationIcon = new PackIcon { Kind = PackIconKind.Speedometer, Width = iconSize, Height = iconSize };
+            _navigationIcon = new PackIcon { Kind = Enum.Parse<PackIconKind>("Speedometer"), Width = iconSize, Height = iconSize };
         }
 
         public object TabHeader => _navigationIcon;
