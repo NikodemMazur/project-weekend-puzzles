@@ -62,15 +62,12 @@
                                                  SecondaryColor="{StaticResource Secondary}" />
                             </Grid.Resources>
 
-                                <Button Style="{DynamicResource MaterialDesignFlatAccentButton}"
-                                    Height="{StaticResource BarSize}"
-                                    VerticalAlignment="Center">
-
-                                <materialDesign:PackIcon Kind="Puzzle"
-                                                         Width="{StaticResource IconSize}"
-                                                         Height="{StaticResource IconSize}" />
-
-                            </Button>
+                            <materialDesign:PackIcon Kind="Puzzle"
+                                                     Width="{StaticResource IconSize}"
+                                                     Height="{StaticResource IconSize}"
+                                                     VerticalAlignment="Center"
+                                                     HorizontalAlignment="Center"
+                                                     Foreground="{StaticResource SecondaryHueMidBrush}"/>
 
                         </Grid>
 
