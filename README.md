@@ -1,5 +1,5 @@
 # project-weekend-puzzles
 
-PoC of composable, reactive UI with gRPC-driven API
+PoC of composable, reactive UI with gRPC-driven API 
 
-See [!Documentation](https://nikodemmazur.github.io/project-weekend-puzzles/)
+For more information see [Documentation](https://nikodemmazur.github.io/project-weekend-puzzles/).
