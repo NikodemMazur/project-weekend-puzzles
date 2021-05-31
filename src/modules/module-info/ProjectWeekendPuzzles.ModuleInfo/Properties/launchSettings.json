@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ProjectWeekendPuzzles.ModuleInfo": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Repos\\project-weekend-puzzles\\src\\app\\ProjectWeekendPuzzles\\bin\\Debug\\net5.0-windows\\ProjectWeekendPuzzles.exe",
+      "workingDirectory": "C:\\Repos\\project-weekend-puzzles\\src\\app\\ProjectWeekendPuzzles\\bin\\Debug\\net5.0-windows"
+    }
+  }
+}
