@@ -15,7 +15,7 @@ Project Weekend Puzzles has been built with several technologies. Some of them a
 - Modules
 - Dialog Services
 
-## [ReactiveUI (Optional)](https://www.reactiveui.net/)
+## [ReactiveUI (Recommended)](https://www.reactiveui.net/)
 
 - Data Binding (type-safe)
 - Commands
