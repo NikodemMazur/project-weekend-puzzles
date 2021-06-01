@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <ThemedImage
   align="left"
-  width="400"
+  width="750"
   alt="Reactive"
   sources={{
     light: useBaseUrl('/img/reactive_light.svg'),
