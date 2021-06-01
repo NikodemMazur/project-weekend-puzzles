@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # What is it?
 
+![Remote control](/img/remote_control.gif)
+
 Project Weekend Puzzles (PWP) is a proof of concept of a desktop UI whose three primary features are **modularity**, **model's technology independence** and **modules authorization with RBAC**.
 
 import ThemedImage from '@theme/ThemedImage';
