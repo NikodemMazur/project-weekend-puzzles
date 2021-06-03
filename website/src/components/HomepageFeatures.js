@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('../../static/img/api.svg').default,
     description: (
       <>
-        Playing purely presentational role, Project Weekend Puzzles' content is fully controlled with the
+        Playing a purely presentational role, Project Weekend Puzzles' content is fully controlled with the
         technology-agnostic API driven by gRPC.
       </>
     ),
@@ -29,7 +29,7 @@ const FeatureList = [
     description: (
       <>
         Prism's navigation mechanism has been enriched with Role-Based Access Control.
-        Views are activated or deactivated depending on the roles of the logged in user.
+        Views are activated or deactivated depending on the roles of the logged-in user.
       </>
     ),
   },
