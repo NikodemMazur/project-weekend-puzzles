@@ -4,17 +4,20 @@ sidebar_position: 0
 
 # What is it?
 
+![Remote control](/img/remote_control.gif)
+
 Project Weekend Puzzles (PWP) is a proof of concept of a desktop UI whose three primary features are **modularity**, **model's technology independence** and **modules authorization with RBAC**.
 
 import ThemedImage from '@theme/ThemedImage';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <ThemedImage
   align="left"
   width="550"
   alt="Layers"
   sources={{
-    light: '/img/layers_light.svg',
-    dark: '/img/layers_dark.svg',
+    light: useBaseUrl('/img/layers_light.svg'),
+    dark: useBaseUrl('/img/layers_dark.svg'),
   }} />
 
 The UI can be extended through modules that provide the implementation for 5 layers: Views, View Models, Model, API Service and API Client.
