@@ -1,8 +1,9 @@
 Steps:
 
 1. Create new WPF User Control Library (.NET Core)
-	- Name it following the convetion ProjectWeekendPuzzles.<YourModule>
-	- Set the project location to: <your-repo-folder>\project-weekend-puzzles\src\modules\<your-module>. Follow the kebab-case for the name of folders that are not used by .NET solution/project
+	- Set the project name to ProjectWeekendPuzzles.<YourModule>
+	- Set the project location to: <your-repo-folder>\project-weekend-puzzles\src\modules
+	- Set the solution name to <your-module> (Note the naming convention <YourModule>, <your-module>)
 	- Choose .NET 5.0
 2. Remove auto-generated UserControl1.xaml
 3. Create Views and ViewModels folders in the project
