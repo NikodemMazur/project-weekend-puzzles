@@ -36,11 +36,11 @@ For the purpose of this guide, we are going to create everything from scratch. R
 
 ### Create Views and ViewModels folders
 
-![View and ViewModels folders](\img\getting-started\add-folders.png)
+![View and ViewModels folders](/img/getting-started/add-folders.png)
 
 ### To Views folder, add a new User Control (WPF)
 
-![User Control (WPF)](\img\getting-started\add-user-control-to-project.png)
+![User Control (WPF)](/img/getting-started/add-user-control-to-project.png)
 
 And name it `<YourModule>View`
 
@@ -48,7 +48,7 @@ And name it `<YourModule>View`
 
 Add `MaterialDesign` package references
 
-![Material Design package references](\img\getting-started\add-materialdesign-references.png)
+![Material Design package references](/img/getting-started/add-materialdesign-references.png)
 
 - Add `materialDesign` namespace
 - Add following resource dictionaries (to use `MaterialDesign` controls and icons)
@@ -87,11 +87,11 @@ Optionally, build the project now to verify that everything is fine so far
 
 ### Add new class named `<YourModule>Module`
 
-![New class](\img\getting-started\add-new-class.png)
+![New class](/img/getting-started/add-new-class.png)
 
 Add Prism.Wpf package reference
 
-![Prism.Wpf package reference](\img\getting-started\add-prism-wpf-reference.png)
+![Prism.Wpf package reference](/img/getting-started/add-prism-wpf-reference.png)
 
 - Make the class `public`
 - Implement `IModule`
@@ -137,11 +137,11 @@ Add the project reference to ProjectWeekendPuzzles.dll; it can be found here:
 ..\..\..\..\src\app\ProjectWeekendPuzzles\bin\Debug\net5.0-windows\ProjectWeekendPuzzles.Core.dll
 ```
 
-![Project reference](\img\getting-started\add-project-references.png)
+![Project reference](/img/getting-started/add-project-references.png)
 
 Upon successful addition, the project dependencies should look like this
 
-![Project reference added](\img\getting-started\project-reference-added.png)
+![Project reference added](/img/getting-started/project-reference-added.png)
 
 Merge the following resource dictionary that contains predefined icon sizes used throughout the application
 
@@ -212,9 +212,9 @@ namespace ProjectWeekendPuzzles.StepList.Views
 
 Add the `xcopy` post-build action to put your module dlls in the folder which the main application lives in
 
-![Project properties](\img\getting-started\project-properties.png)
+![Project properties](/img/getting-started/project-properties.png)
 
-![Post-build event command](\img\getting-started\post-build-event-command.png)
+![Post-build event command](/img/getting-started/post-build-event-command.png)
 
 ```powershell title="Post-build event command of ProjectWeekendPuzzles.StepList.csproj"
 xcopy "$(TargetDir)*.*" "$(SolutionDir)..\..\..\src\app\ProjectWeekendPuzzles\$(OutDir)" /Y /I
@@ -266,7 +266,7 @@ It is not an elegant way to manage PWP modules. In the target application one sh
 
 Visual Studio allows for debugging a project through another executable. The project weekend puzzles' development style highly benefits from this feature as a single module cannot be run on its own.
 
-![Project debug properties](\img\getting-started\debug-options.png)
+![Project debug properties](/img/getting-started/debug-options.png)
 
 ```none title="Executable path in ProjectWeekendPuzzles.StepList.csproj Debug properties"
 <your-repo-folder>\project-weekend-puzzles\src\app\ProjectWeekendPuzzles\bin\Debug\net5.0-windows\ProjectWeekendPuzzles.exe
@@ -280,4 +280,4 @@ Visual Studio allows for debugging a project through another executable. The pro
 
 Run your project and see the application with your module loaded
 
-![Module loaded](\img\getting-started\module-loaded.png)
+![Module loaded](/img/getting-started/module-loaded.png)
