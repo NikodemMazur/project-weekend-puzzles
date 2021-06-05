@@ -28,6 +28,6 @@ Steps:
 	- Implement ProjectWeekendPuzzles.Core.ViewContract.IHeadered
 8. Add xcopy post-build action to put your module dlls in the same folder as the main application
 	- Add <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> to your project PropertyGroup to force copying nuget referenced dlls
-9. Build your module
-10. Add module reference in the application app.config
+9. Add module reference in the application app.config
+10. Set the project debugging options (VS will generate Properties folder with launchSettings.json)
 11. Build and see the application with your module loaded
