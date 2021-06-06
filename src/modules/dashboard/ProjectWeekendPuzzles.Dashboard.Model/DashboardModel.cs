@@ -5,7 +5,6 @@ namespace ProjectWeekendPuzzles.Dashboard.Model
 {
     public class DashboardModel : IObservable<Status>
     {
-        private readonly Guid _guid = Guid.NewGuid();
         private readonly IObservable<Status> _observable;
         private event Action<Status> StatusChanged;
 
