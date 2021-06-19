@@ -95,7 +95,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/NikodemMazur/project-weekend-puzzles/edit/docs/docs/pwp-docs/',
+            'https://github.com/NikodemMazur/project-weekend-puzzles/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
