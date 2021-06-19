@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Protobuf Include="Protos\step-list.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.37.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectWeekendPuzzles.StepList.Model\ProjectWeekendPuzzles.StepList.Model.csproj" />
+  </ItemGroup>
+
+</Project>

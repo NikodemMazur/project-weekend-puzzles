@@ -1,6 +1,9 @@
 ﻿using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
+using ProjectWeekendPuzzles.Core.ApiServer;
+using ProjectWeekendPuzzles.StepList.Api.Services;
+using ProjectWeekendPuzzles.StepList.Model;
 using ProjectWeekendPuzzles.StepList.Views;
 
 namespace ProjectWeekendPuzzles.StepList
@@ -9,9 +12,11 @@ namespace ProjectWeekendPuzzles.StepList
     {
         private readonly IRegionManager _regionManager;
 
-        public StepListModule(IRegionManager regionManager)
+        public StepListModule(IRegionManager regionManager, ApiServiceCollection apiServiceCollection)
         {
             _regionManager = regionManager;
+
+            apiServiceCollection.AddApiService<StepListUpdaterService>();
         }
 
         public void OnInitialized(IContainerProvider containerProvider)
@@ -21,7 +26,7 @@ namespace ProjectWeekendPuzzles.StepList
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.RegisterSingleton<StepListModel>();
         }
     }
 }

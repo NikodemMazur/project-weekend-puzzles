@@ -3,7 +3,7 @@ module.exports = {
   title: 'Project Weekend Puzzles',
   tagline: 'PoC of composable, reactive UI with gRPC-driven API',
   url: 'https://github.com/NikodemMazur/project-weekend-puzzles/',
-  baseUrl: '/project-weekend-puzzles/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/pwp_logo.svg',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'project-weekend-puzzles', // Usually your repo name.
   themeConfig: {
     prism: {
-      additionalLanguages: ['csharp', 'powershell'],
+      additionalLanguages: ['csharp', 'powershell', 'protobuf'],
     },
     navbar: {
       title: 'Project Weekend Puzzles',

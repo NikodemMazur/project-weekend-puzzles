@@ -6,6 +6,13 @@ sidebar_position: 2
 
 The fastest way to understand what this project is about is to run it. The following steps will instruct you how to build the main application along with the off-the-shelf modules.
 
+## Checkout the repository
+
+```powershell
+cd <your-repo-folder>
+git clone https://github.com/NikodemMazur/project-weekend-puzzles.git
+```
+
 ## Build the app and referenced modules
 
 To run the application with all modules loaded, one should build the *app* solution first. The solution output are *ProjectWeekendPuzzles.exe* and *ProjectWeekendPuzzles.Core.dll*; the latter is needed prior to building modules since it is the main dependency of the entire project. At this point, the output executable *ProjectWeekendPuzzles.exe* would be runnable if *ProjectWeekendPuzzles.dll.config* had not told it to search for *dashboard* and *module-info* modules. Therefore, before running the executable, one needs to visit the module solutions and build them. Once it is done, the executable should run without any errors.

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWeekendPuzzles.StepList", "ProjectWeekendPuzzles.StepList\ProjectWeekendPuzzles.StepList.csproj", "{AE458C7C-03E5-4C56-97CD-6CA54E723DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWeekendPuzzles.StepList", "ProjectWeekendPuzzles.StepList\ProjectWeekendPuzzles.StepList.csproj", "{AE458C7C-03E5-4C56-97CD-6CA54E723DEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWeekendPuzzles.StepList.Model", "ProjectWeekendPuzzles.StepList.Model\ProjectWeekendPuzzles.StepList.Model.csproj", "{4A822803-CD62-4929-B2C3-38021190FB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWeekendPuzzles.StepList.Api", "ProjectWeekendPuzzles.StepList.Api\ProjectWeekendPuzzles.StepList.Api.csproj", "{D8FD5049-3A50-4D6B-A5F7-42565F59C26F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWeekendPuzzles.StepList.Client", "ProjectWeekendPuzzles.StepList.Client\ProjectWeekendPuzzles.StepList.Client.csproj", "{D041036F-D249-49A5-AEC1-7E903BADD059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{AE458C7C-03E5-4C56-97CD-6CA54E723DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE458C7C-03E5-4C56-97CD-6CA54E723DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE458C7C-03E5-4C56-97CD-6CA54E723DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A822803-CD62-4929-B2C3-38021190FB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A822803-CD62-4929-B2C3-38021190FB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A822803-CD62-4929-B2C3-38021190FB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A822803-CD62-4929-B2C3-38021190FB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FD5049-3A50-4D6B-A5F7-42565F59C26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FD5049-3A50-4D6B-A5F7-42565F59C26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FD5049-3A50-4D6B-A5F7-42565F59C26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FD5049-3A50-4D6B-A5F7-42565F59C26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D041036F-D249-49A5-AEC1-7E903BADD059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D041036F-D249-49A5-AEC1-7E903BADD059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D041036F-D249-49A5-AEC1-7E903BADD059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D041036F-D249-49A5-AEC1-7E903BADD059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

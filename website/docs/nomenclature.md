@@ -11,4 +11,4 @@ sidebar_position: 1
 - **Core** - DLL with classes and resources that are shared among the application and modules
 - **Shell** - The main window that contains all the modules
 - **Server service** - A middleware that listens to clients' requests; in this project, the term applies to gRPC server services
-- **Client service** - An automatically generated class that sends requests to server services; as already mentioned, it applies to gRPC client services
+- **Client service** - An automatically generated class that sends requests to server services; as already mentioned, it applies to the gRPC stuff

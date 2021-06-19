@@ -19,7 +19,8 @@ Project Weekend Puzzles has been built with several technologies. Some of them a
 
 - Data Binding (type-safe)
 - Commands
-- `WhenAny`
+- `DynamicData`
+- other UI-related reactive helpers
 
 ## [.NET 5 WPF](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/?view=netdesktop-5.0)
 

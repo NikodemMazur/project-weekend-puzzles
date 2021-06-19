@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ProjectWeekendPuzzles.StepList.Api";
+
+package stepList;
+
+service StepListUpdater {
+  rpc AddStep (AddRequest) returns (AddReply);
+  rpc ClearList (ClearRequest) returns (ClearReply);
+}
+
+message AddRequest {
+  string name = 1;
+  string result = 2;
+  enum StepStatus {
+		PASS = 0;
+		FAIL = 1;
+		ERROR = 2;
+  }
+  StepStatus status = 3;
+}
+
+message AddReply {
+  bool success = 1;
+}
+
+message ClearRequest {
+
+}
+
+message ClearReply {
+	bool success = 1;
+}

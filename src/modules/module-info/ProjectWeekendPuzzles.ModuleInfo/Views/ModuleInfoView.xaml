@@ -35,7 +35,6 @@
             
         </materialDesign:PackIcon>
         
-        <!-- and here's another -->
         <ItemsControl ItemsSource="{Binding ModuleInfos}"
                       Grid.IsSharedSizeScope="True"
                       Padding="10">
