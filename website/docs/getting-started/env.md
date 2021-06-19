@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Preparing the environment
+# Preparing environment
 
 Make sure you have all components listed in this section installed. Please note, I am not sure if the following VS version should be strictly adhered to. This is simply what I had installed during the development. Probably older versions will be sufficient.
 
