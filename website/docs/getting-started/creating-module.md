@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Creating module
 
-To better tell what is necessary for a piece of code to be a ProjectWeekendPuzzles' module, the guide has been split into two parts. The first one shows the minimum steps to plug a view into the application. The first part results in a blank view injected into the `main-content-region` of the application. In the other part, a user is guided to provide a reactive content that is controlled through gRPC API. Upon completing the guide, a user has enough knowledge to create a module that can do anything a normal WPF application can.
+To easier understand what it is necessary for a piece of code to be a ProjectWeekendPuzzles' module, the first part of the guide shows the minimum steps needed to plug a non-reactive view into the application shell. The result is a blank view injected into the `main-content-region` region. The view, however, cannot yet be controlled through IPC; the API implementation is shown in a further part of the guide. In the other part, a user is guided to provide a reactive content that can be controlled through gRPC API. Upon completing the guide, a user has enough knowledge to create a module that can do anything a normal WPF user control can, even though it is controlled externally
 
 :::tip How to follow this guide
 Do not skip any steps. A text instruction is followed (or not) by a related graphic; never the other way round
