@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31220.234
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWeekendPuzzles", "ProjectWeekendPuzzles\ProjectWeekendPuzzles.csproj", "{ECC990AA-C2EC-4B8C-82EB-4CB43E5392E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWeekendPuzzles", "src\app\ProjectWeekendPuzzles\ProjectWeekendPuzzles.csproj", "{ECC990AA-C2EC-4B8C-82EB-4CB43E5392E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWeekendPuzzles.Core", "ProjectWeekendPuzzles.Core\ProjectWeekendPuzzles.Core.csproj", "{EA7E5BCC-0898-4EE0-B10D-36DA279979B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectWeekendPuzzles.Core", "src\app\ProjectWeekendPuzzles.Core\ProjectWeekendPuzzles.Core.csproj", "{EA7E5BCC-0898-4EE0-B10D-36DA279979B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWeekendPuzzles.Tests", "tests\app\ProjectWeekendPuzzles.Tests\ProjectWeekendPuzzles.Tests.csproj", "{0952B33A-7792-4644-8278-04E4DCCF1D23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EA7E5BCC-0898-4EE0-B10D-36DA279979B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA7E5BCC-0898-4EE0-B10D-36DA279979B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7E5BCC-0898-4EE0-B10D-36DA279979B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0952B33A-7792-4644-8278-04E4DCCF1D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0952B33A-7792-4644-8278-04E4DCCF1D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0952B33A-7792-4644-8278-04E4DCCF1D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0952B33A-7792-4644-8278-04E4DCCF1D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
