@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # View authorization
 
-The application (the one with the shell) contains `Security.Authentication` and `Security.Authorization` namespaces that introduce the role-based authorization into `Prism`'s region mechanism. If the user does not have a required role to see a view, the `ReloadRegionViewsRegionBehavior` class, that has dependency to `Security.Authentication`, removes the view. When a user is switched and the new one meets role requirements, the view is added back to the region. Although, authorized views are not visible immediately after the application startup (because `User.Anonymous` does not have any roles), they all are loaded into the application memory along with their modules as early as when the application starts.
+The application (the one with the shell) contains `Security.Authentication` and `Security.Authorization` namespaces that introduce the role-based authorization into `Prism`'s region mechanism. If the user does not have a required role to see a view, the `ReloadRegionViewsRegionBehavior` class, that has dependency to `Security.Authorization`, removes the view. When a user is switched and the new one meets role requirements, the view is added back to the region. Although, authorized views are not visible immediately after the application startup (because `User.Anonymous` does not have any roles), they all are loaded into the application memory along with their modules as early as when the application starts.
 
 ![Authorization](/img/authentication.gif)
 
