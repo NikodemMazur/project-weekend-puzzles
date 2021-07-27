@@ -27,8 +27,6 @@ namespace ProjectWeekendPuzzles.Core.Prism
         {
             Region.RemoveAll();
 
-            Thread.Sleep(TimeSpan.FromSeconds(1));
-
             foreach (object view in CreateViewsToPopulate())
             {
                 AddViewIntoRegion(view);
