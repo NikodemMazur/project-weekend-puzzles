@@ -4,6 +4,6 @@ namespace ProjectWeekendPuzzles.Security.Authorization
 {
     public interface IAuthorizationService
     {
-        AuthorizationResult Authorize(User user);
+        AuthorizationResult Authorize(User user, IAuthorizationRequirement authorizationRequirement);
     }
 }

@@ -10,7 +10,7 @@
     <PackageReference Include="MaterialDesignColors" Version="2.0.1" />
     <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
-    <PackageReference Include="ReactiveUI.WPF" Version="13.3.2" />
+    <PackageReference Include="ReactiveUI.WPF" Version="14.1.1" />
   </ItemGroup>
 
   <ItemGroup>

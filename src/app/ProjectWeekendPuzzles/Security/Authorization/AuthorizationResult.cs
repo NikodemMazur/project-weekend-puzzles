@@ -1,4 +1,6 @@
-﻿namespace ProjectWeekendPuzzles.Security.Authorization
+﻿using ProjectWeekendPuzzles.Core.Security.Authorization;
+
+namespace ProjectWeekendPuzzles.Security.Authorization
 {
     public class AuthorizationResult
     {

@@ -1,4 +1,5 @@
 ﻿using MaterialDesignThemes.Wpf;
+using ProjectWeekendPuzzles.Core.Security.Authorization;
 using ProjectWeekendPuzzles.Core.ViewContract;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace ProjectWeekendPuzzles.ModuleInfo.Views
     /// <summary>
     /// Interaction logic for ModuleInfoView.xaml
     /// </summary>
+    [AuthorizeRole("developer")]
     public partial class ModuleInfoView : UserControl, IHeadered
     {
         private readonly PackIcon _navigationIcon;

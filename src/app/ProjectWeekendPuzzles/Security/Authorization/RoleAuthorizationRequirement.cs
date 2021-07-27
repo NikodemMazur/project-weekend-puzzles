@@ -1,4 +1,5 @@
-﻿using ProjectWeekendPuzzles.Security.Core;
+﻿using ProjectWeekendPuzzles.Core.Security.Authorization;
+using ProjectWeekendPuzzles.Security.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

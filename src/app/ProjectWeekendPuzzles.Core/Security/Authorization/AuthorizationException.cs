@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectWeekendPuzzles.Security.Authorization
+namespace ProjectWeekendPuzzles.Core.Security.Authorization
 {
     public class AuthorizationException : Exception
     {

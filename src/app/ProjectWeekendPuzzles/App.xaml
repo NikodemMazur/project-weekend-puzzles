@@ -16,6 +16,9 @@
                                                  ColorAdjustment="{materialDesign:ColorAdjustment}" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            
+            <FontFamily x:Key="PasswordFont">./Resources/password.ttf#Password</FontFamily>
+        
         </ResourceDictionary>
     </Application.Resources>
     

@@ -1,13 +1,20 @@
 ﻿using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Regions;
 using ProjectWeekendPuzzles.ApiServer;
 using ProjectWeekendPuzzles.Core.ApiServer;
+using ProjectWeekendPuzzles.Core.Prism;
+using ProjectWeekendPuzzles.Security.Authentication;
+using ProjectWeekendPuzzles.Security.Authorization;
+using ProjectWeekendPuzzles.Security.Core;
 using ProjectWeekendPuzzles.Views;
 using System.Configuration;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 
 namespace ProjectWeekendPuzzles
 {
@@ -25,6 +32,17 @@ namespace ProjectWeekendPuzzles
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<ApiServiceCollection>();
+
+            containerRegistry.RegisterSingleton<IAuthenticationStateProvider, AuthenticationStateProvider>();
+            containerRegistry.RegisterSingleton<IAuthorizationService, AuthorizationService>();
+            containerRegistry.RegisterSingleton<IAuthenticationService, AuthenticationService>();
+            containerRegistry.Register<IAuthenticationHandler, DefaultAuthenticationHandler>();
+
+            containerRegistry.Register<SignInView>();
+            containerRegistry.Register<SignOut>();
+
+            containerRegistry.Register<IRegion>(cp => new AuthorizeRegion(cp.Resolve<IAuthorizationService>(),
+                cp.Resolve<IAuthenticationStateProvider>()));
         }
 
         protected override void OnInitialized()
@@ -47,5 +65,18 @@ namespace ProjectWeekendPuzzles
         }
 
         protected override IModuleCatalog CreateModuleCatalog() => new ConfigurationModuleCatalog();
+
+        protected override void ConfigureRegionAdapterMappings(RegionAdapterMappings regionAdapterMappings)
+        {
+            regionAdapterMappings.RegisterMapping<Selector, Core.Prism.SelectorRegionAdapter>();
+            regionAdapterMappings.RegisterMapping<ItemsControl, Core.Prism.ItemsControlRegionAdapter>();
+            regionAdapterMappings.RegisterMapping<ContentControl, Core.Prism.ContentControlRegionAdapter>();
+        }
+
+        protected override void ConfigureDefaultRegionBehaviors(IRegionBehaviorFactory regionBehaviors)
+        {
+            base.ConfigureDefaultRegionBehaviors(regionBehaviors);
+            regionBehaviors.AddIfMissing<ReloadRegionViewsRegionBehavior>(ReloadRegionViewsRegionBehavior.BehaviorKey);
+        }
     }
 }

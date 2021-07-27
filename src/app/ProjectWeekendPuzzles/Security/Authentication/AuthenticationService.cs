@@ -22,7 +22,7 @@ namespace ProjectWeekendPuzzles.Security.Authentication
 
         public event Action<AuthenticationResult> AuthenticationChanged;
 
-        public AuthenticationResult SignInAsync(UserCredentials userCredentials, IAuthenticationHandler authenticationHandler)
+        public AuthenticationResult SignIn(UserCredentials userCredentials, IAuthenticationHandler authenticationHandler)
         {
             var result = authenticationHandler.AuthenticateAsync(userCredentials).Result;
 
@@ -31,12 +31,12 @@ namespace ProjectWeekendPuzzles.Security.Authentication
             return result;
         }
 
-        public AuthenticationResult SignOutAsync(IAuthenticationHandler authenticationHandler)
+        public AuthenticationResult SignOut(IAuthenticationHandler authenticationHandler)
         {
-            var result = AuthenticationResult.Succeed(User.Anonymous);
-
-            _lastResult = result;
             authenticationHandler.SingOut(_lastResult.User);
+
+            var result = AuthenticationResult.Succeed(User.Anonymous);
+            _lastResult = result;
             OnAuthenticationChanged();
             return result;
         }

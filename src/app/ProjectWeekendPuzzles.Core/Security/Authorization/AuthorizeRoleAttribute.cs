@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectWeekendPuzzles.Security.Authorization
+namespace ProjectWeekendPuzzles.Core.Security.Authorization
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public class AuthorizeRoleAttribute : Attribute

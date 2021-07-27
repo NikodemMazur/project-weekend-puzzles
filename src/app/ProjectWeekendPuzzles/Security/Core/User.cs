@@ -6,6 +6,8 @@ namespace ProjectWeekendPuzzles.Security.Core
 {
     public class User
     {
+        private static Lazy<User> _lazyInstance = new Lazy<User>(() => new User("Anonymous", Enumerable.Empty<string>()));
+
         public User(string name, IEnumerable<string> roles)
         {
             Name = name ?? throw new ArgumentNullException(nameof(name));
@@ -14,6 +16,6 @@ namespace ProjectWeekendPuzzles.Security.Core
 
         public string Name { get; }
         public IEnumerable<string> Roles { get; }
-        public static User Anonymous => new User("Anonymous", Enumerable.Empty<string>());
+        public static User Anonymous => _lazyInstance.Value;
     }
 }

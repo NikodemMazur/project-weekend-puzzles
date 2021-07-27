@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using ProjectWeekendPuzzles.Core.Security.Authorization;
+using System.Linq;
 
 namespace ProjectWeekendPuzzles.Security.Authorization
 {

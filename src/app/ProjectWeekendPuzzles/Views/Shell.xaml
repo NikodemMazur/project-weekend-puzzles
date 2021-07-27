@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         xmlns:prism="http://prismlibrary.com/"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:vm="clr-namespace:ProjectWeekendPuzzles.ViewModels"
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="Shell"
         Name="ShellWindow"
@@ -23,7 +24,12 @@
         FontFamily="{materialDesign:MaterialDesignFont}">
 
     <Window.Resources>
-        
+        <DataTemplate DataType="{x:Type vm:SignInViewModel}">
+            <local:SignInView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:SignOutViewModel}">
+            <local:SignOut />
+        </DataTemplate>
     </Window.Resources>
 
     <Grid x:Name="ShellGrid">
@@ -122,8 +128,18 @@
                                 <StackPanel DockPanel.Dock="Right"
                                             Orientation="Horizontal">
 
-                                    <Button Content="{materialDesign:PackIcon Kind=Account, Size={StaticResource BigIconSize}}" />
+                                    <materialDesign:PopupBox StaysOpen="True">
+                                        <materialDesign:PopupBox.ToggleContent>
+                                            <materialDesign:PackIcon Kind="Account"
+                                                                     Width="{StaticResource BigIconSize}"
+                                                                     Height="{StaticResource BigIconSize}"
+                                                                     Foreground="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=materialDesign:PopupBox}, Path=Foreground}"/>
+                                        </materialDesign:PopupBox.ToggleContent>
 
+                                        <ContentControl Content="{Binding CurrentAuthenticationViewModel}"/>
+
+                                    </materialDesign:PopupBox>
+                                    
                                     <materialDesign:PopupBox StaysOpen="True">
                                         <materialDesign:PopupBox.ToggleContent>
                                             <materialDesign:PackIcon Kind="GearOutline"
