@@ -12,3 +12,5 @@ sidebar_position: 5
 - `Microsoft.Extensions.Logging` loggers registered in Wpf application should be accessible in the Api server
 - All api endpoints should be mapped on the application initialization - that's why modules should ALWAYS be loaded on startup (`startupLoaded` option should be hidden from developers)
 - Extend the IModule interface with a module name and a method/property for registering Api services
+- Fix 'one view in a selector' issue
+- Make the reloading region behavior remove only unauthorized views so that authorized data is not lost after switching users
