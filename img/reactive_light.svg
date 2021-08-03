@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="115.40678mm"
+   height="59.86454mm"
+   viewBox="0 0 115.40678 59.86454"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="reactive_light.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="243.82469"
+     inkscape:cy="110.32052"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1431"
+     inkscape:window-height="1030"
+     inkscape:window-x="137"
+     inkscape:window-y="36"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.641682,-13.719917)">
+    <rect
+       style="fill:#fdd835;fill-opacity:1;stroke:none;stroke-width:0.105718"
+       id="rect835"
+       width="28.91555"
+       height="11.529318"
+       x="71.225349"
+       y="15.80817"
+       rx="0.41337299"
+       ry="0.40000001" />
+    <rect
+       style="fill:#fdd835;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-5"
+       width="17.296444"
+       height="2.6174192"
+       x="71.225349"
+       y="13.719917"
+       rx="0.40000001"
+       ry="0.40000001" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="77.959183"
+       y="15.377052"
+       id="text871"><tspan
+         sodipodi:role="line"
+         id="tspan869"
+         x="77.959183"
+         y="15.377052"
+         style="stroke-width:0.264583">Model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="72.023766"
+       y="21.72102"
+       id="text875"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="72.023766"
+         y="21.72102"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.264583">: IObservable&lt;TModel&gt;</tspan></text>
+    <rect
+       style="fill:#ddbd2e;fill-opacity:1;stroke:none;stroke-width:0.118394"
+       id="rect835-2"
+       width="36.265461"
+       height="11.529318"
+       x="94.655006"
+       y="39.115818"
+       rx="0.51844639"
+       ry="0.40000001" />
+    <rect
+       style="fill:#ddbd2e;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-5-5"
+       width="17.296444"
+       height="2.6174192"
+       x="94.663307"
+       y="37.019268"
+       rx="0.40000001"
+       ry="0.40000001" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="100.33881"
+       y="38.676403"
+       id="text871-2"><tspan
+         sodipodi:role="line"
+         id="tspan869-6"
+         x="100.33881"
+         y="38.676403"
+         style="stroke-width:0.264583">ViewModels</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="95.461723"
+       y="43.962032"
+       id="text875-2"><tspan
+         sodipodi:role="line"
+         id="tspan873-5"
+         x="95.461723"
+         y="43.962032"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.264583">: ReavtiveUI.ReactiveObject</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="95.375252"
+       y="47.346874"
+       id="text875-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan873-5-3"
+         x="95.375252"
+         y="47.346874"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.264583">- IObserver&lt;TModel&gt;</tspan></text>
+    <rect
+       style="fill:#c2a629;fill-opacity:1;stroke:none;stroke-width:0.129838"
+       id="rect835-2-7"
+       width="43.615372"
+       height="11.529318"
+       x="120.4331"
+       y="62.055141"
+       rx="0.62351978"
+       ry="0.40000001" />
+    <rect
+       style="fill:#c2a629;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-5-5-4"
+       width="17.296444"
+       height="2.6174192"
+       x="120.44139"
+       y="59.958591"
+       rx="0.40000001"
+       ry="0.40000001" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="127.17522"
+       y="61.615726"
+       id="text871-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan869-6-2"
+         x="127.17522"
+         y="61.615726"
+         style="stroke-width:0.264583">Views</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="121.23978"
+       y="68.488853"
+       id="text875-2-6"><tspan
+         sodipodi:role="line"
+         id="tspan873-5-4"
+         x="121.23978"
+         y="68.488853"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.264583">: ReactiveUserControl&lt;TViewModel&gt;</tspan></text>
+    <rect
+       style="fill:#ddbd2e;fill-opacity:1;stroke:none;stroke-width:0.104489"
+       id="rect835-2-0"
+       width="28.247375"
+       height="11.529318"
+       x="48.641682"
+       y="39.115818"
+       rx="0.40382087"
+       ry="0.40000001" />
+    <rect
+       style="fill:#ddbd2e;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect835-5-5-3"
+       width="17.296444"
+       height="2.6174192"
+       x="48.649982"
+       y="37.019268"
+       rx="0.40000001"
+       ry="0.40000001" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="56.442158"
+       y="38.676403"
+       id="text871-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan869-6-8"
+         x="56.442158"
+         y="38.676403"
+         style="stroke-width:0.264583">Api</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.11667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+       x="49.417198"
+       y="45.666401"
+       id="text875-9"><tspan
+         sodipodi:role="line"
+         id="tspan873-3"
+         x="49.417198"
+         y="45.666401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:'Courier New';-inkscape-font-specification:'Courier New';stroke-width:0.264583">- IObservable&lt;TModel&gt;</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 70.559154,36.749561 c 3.383534,-2.851063 7.420919,-5.50092 10.557147,-7.884454 -0.461732,0.687342 -0.686185,1.39463 -0.985348,2.128941"
+       id="path1125" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 81.116301,28.865107 c -0.688694,0.330904 -1.467847,0.374338 -2.166524,0.522542"
+       id="path1129" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 97.61235,35.24628 c -3.086418,-1.430435 -5.94876,-4.209766 -8.409969,-5.953124 0.336438,0.57563 0.325417,1.131876 0.47247,1.842633"
+       id="path1135" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 89.202381,29.293156 c 0.761629,0.123467 1.509982,0.298534 2.287317,0.373761"
+       id="path1155" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 122.46428,57.830357 c -3.49449,-1.095259 -6.09266,-3.567986 -8.78794,-5.764139"
+       id="path1159" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.67634,52.066218 c 0.63387,0.652003 0.53478,1.476682 0.75595,2.220611"
+       id="path1161" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 113.67634,52.066218 c 0.8419,0.397661 1.66931,0.302374 2.55134,0.377979"
+       id="path1163" />
+  </g>
+</svg>
