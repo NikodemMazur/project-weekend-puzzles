@@ -4,7 +4,6 @@ using DryIoc;
 using DryIoc.Microsoft.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
 using ProjectWeekendPuzzles.Core.ApiServer;
 
 namespace ProjectWeekendPuzzles.ApiServer
@@ -30,11 +29,7 @@ namespace ProjectWeekendPuzzles.ApiServer
                         .ConfigureKestrel(kestrelOptions =>
                         {
                             kestrelOptions
-                                .ListenLocalhost(port, listenOptions =>
-                                {
-                                    listenOptions.Protocols = HttpProtocols.Http2;
-                                    listenOptions.UseHttps();
-                                });
+                                .ListenLocalhost(port);
                         });
                 })
                 .Build();
