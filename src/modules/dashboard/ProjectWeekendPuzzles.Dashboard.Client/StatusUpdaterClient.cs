@@ -18,9 +18,9 @@ namespace ProjectWeekendPuzzles.Dashboard.Client
             var portStr = ConfigurationSettings.AppSettings["port"] ?? "55331"; // fallback to default
             var port = int.Parse(portStr);
 
-            _channel = GrpcChannel.ForAddress($"https://localhost:{port}", new GrpcChannelOptions
+            _channel = GrpcChannel.ForAddress($"http://localhost:{port}", new GrpcChannelOptions
             {
-                HttpHandler = new GrpcWebHandler(new WinHttpHandler())
+                HttpHandler = new GrpcWebHandler(GrpcWebMode.GrpcWeb, new CustomHttpClientHandler())
             });
 
             _client = new StatusUpdater.StatusUpdaterClient(_channel);
